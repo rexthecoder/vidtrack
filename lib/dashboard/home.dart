@@ -1,6 +1,7 @@
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 
 import 'package:flutter/material.dart';
+import 'package:vidtrack/blue/blueScreen.dart';
 import 'package:vidtrack/screens/statictis.dart';
 import 'package:vidtrack/dashboard/homepage.dart';
 
@@ -12,8 +13,8 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   List<Widget> tab = [
     Homepage(),
-    Statictis()
-   
+    Statictis(),
+    BlueHome(),
   ];
 
   int currentIndex = 0;
